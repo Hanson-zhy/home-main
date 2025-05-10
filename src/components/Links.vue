@@ -66,7 +66,7 @@ const siteIcon = {
   Blog,
   Cloud,
   CompactDisc,
-  Compass,
+  Search,
   Book,
   Fire,
   LaptopCode,
