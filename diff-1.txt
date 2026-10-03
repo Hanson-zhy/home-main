@@ -1,0 +1,46 @@
+ ", update README\357\200\242"  |  335 --
+ .dockerignore                  |   15 -
+ .env                           |   28 +-
+ .eslintignore                  |    3 -
+ .github/workflows/build.yml    |   46 -
+ .gitignore                     |    1 -
+ Dockerfile                     |   17 -
+ README.md                      |  463 ++-
+ README_EN.md                   |  292 +-
+ auto-imports.d.ts              |   57 -
+ components.d.ts                |   35 -
+ diff.txt                       |  197 --
+ docker-compose.yml             |    9 -
+ index.html                     |   16 +-
+ package.json                   |   43 +-
+ pnpm-lock.yaml                 | 6779 +++++++++++++++++++---------------------
+ public/images/icon/website.png |  Bin 3525 -> 0 bytes
+ screenshots/main.jpg           |  Bin 251097 -> 0 bytes
+ screenshots/step1.jpg          |  Bin 56946 -> 0 bytes
+ screenshots/step2.jpg          |  Bin 68385 -> 0 bytes
+ src/App.vue                    |   69 +-
+ src/api/index.js               |   13 +-
+ src/assets/siteLinks.json      |   18 +-
+ src/assets/socialLinks.json    |   22 +-
+ src/components/Background.vue  |   16 +-
+ src/components/Footer.vue      |   38 +-
+ src/components/Hitokoto.vue    |   31 +-
+ src/components/Links.vue       |   18 +-
+ src/components/Message.vue     |   61 +-
+ src/components/MoreContent.vue |   14 -
+ src/components/Music.vue       |   28 +-
+ src/components/Player.vue      |  144 +-
+ src/components/Set.vue         |  111 +-
+ src/components/TimeCapsule.vue |   66 +-
+ src/components/Weather.vue     |  101 +-
+ src/main.js                    |    2 -
+ src/store/index.js             |    6 -
+ src/style/style.scss           |   14 +-
+ src/utils/cursor.js            |   19 +-
+ src/utils/getTime.js           |  109 +-
+ src/views/Box/index.vue        |    6 -
+ src/views/Func/index.vue       |    9 -
+ src/views/Main/Right.vue       |   11 +-
+ src/views/MoreSet/index.vue    |   19 +-
+ vite.config.js                 |    6 +-
+ 45 files changed, 3967 insertions(+), 5320 deletions(-)
